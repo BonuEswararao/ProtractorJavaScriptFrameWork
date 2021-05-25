@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621944727327' stop='1621944733117'>
+    <name>Protractor Demo App</name>
+    <title>Protractor Demo App</title>
+    <test-cases>
+        <test-case start='1621944727327' status='undefined'>
+            <name>Should have a title</name>
+            <title>Should have a title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621944727328' status='passed' stop='1621944729472'>
+            <name>Should have a title</name>
+            <title>Should have a title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ad4506ca-66b5-4978-9b54-1e28de770f4c-attachment.png' type='image/png' size='17952'/>
+            </attachments>
+        </test-case>
+        <test-case start='1621944729472' status='undefined'>
+            <name>Should add Two Numbers</name>
+            <title>Should add Two Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621944729472' status='passed' stop='1621944733102'>
+            <name>Should add Two Numbers</name>
+            <title>Should add Two Numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0c8bb2e0-e8c6-4f6a-a188-8db4675dc1cc-attachment.png' type='image/png' size='20730'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
