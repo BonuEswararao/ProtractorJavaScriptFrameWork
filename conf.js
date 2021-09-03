@@ -5,6 +5,13 @@ exports.config = {
     specs: ['specs/calculator.js'],
     directConnect: true,
 
+    capabilities:{
+        browserName: 'chrome',
+        chromeOptions: {
+            args:["--headless"]
+        } 
+    },
+
     onPrepare: function () {
         switch(browser.params.baseUrl){
                case 'local':
@@ -19,6 +26,8 @@ exports.config = {
                default:
                browser.params.url = "http://juliemr.github.io/protractor-demo/";
         }
+
+        
         //protractor-beautiful-reporter code
         jasmine.getEnv().addReporter(new HtmlReporter({
             baseDirectory: 'reports/screenshots'
